@@ -1782,7 +1782,12 @@ h2 {
 
 .checkout .checkout-summary h1,
 .checkout .checkout-payment h1 {
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout .checkout-summary p {
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -1823,16 +1828,17 @@ h2 {
     font-weight: 700;
     font-size: 25px;
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     background: #FF6F61;
-    border: none;
+    border: 1px;
     border-radius: 4px;
     transition: all .3s;
 }
 
 .checkout .checkout-payment .checkout-btn button:hover {
     color: #FF6F61;
-    background: #000000;
+    background: #ffffff;    
+    border: 1px solid #FF6F61;
 }
 
 
