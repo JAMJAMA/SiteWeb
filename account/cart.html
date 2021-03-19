@@ -2,16 +2,15 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>Dantech - Panier</title>
+    <title>Votre panier - Dantech | Québec - Canada</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="eCommerce HTML Template Free Download" name="keywords" />
-    <meta content="eCommerce HTML Template Free Download" name="description" />
+    <meta content="Votre panier Dantech" name="description" />
 
     <!-- Favicon -->
-    <link href="../img/favicon.ico" rel="icon">
+    <link href="../img/favicon.png" rel="icon">
 
     <!-- Google Fonts -->
-    <link href="../lib/slick/googlefonts.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
     <!-- CSS Libraries -->
     <link href="../lib/slick/bootstrap.min.css" rel="stylesheet">
@@ -85,7 +84,7 @@
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Infos</a>
                           <div class="dropdown-menu">
                               <a href="#" class="dropdown-item">À propos</a>
-                              <a href="contact.html" class="dropdown-item">Contact</a>
+                              <a href="#" class="dropdown-item">Contact</a>
                           </div>
                       </div>
                   </div>
@@ -109,8 +108,8 @@
           <div class="row align-items-center">
               <div class="col-md-3">
                   <div class="logo">
-                      <a href="../index.html">
-                          <img src="../img/logo/logo.png" alt="Logo">
+                      <a href="../index.html" title="Dantech">
+                          <img src="../img/logo/logo.png" alt="image Logo Dantech">
                       </a>
                   </div>
               </div>
@@ -122,11 +121,11 @@
               </div>
               <div class="col-md-3">
                   <div class="user">
-                      <a href="wishlist.html" class="btn wishlist">
+                      <a href="wishlist.html" title="Liste de souhaits" class="btn wishlist">
                           <i class="fa fa-heart"></i>
                           <span>(0)</span>
                       </a>
-                      <a href="cart.html" class="btn cart">
+                      <a href="cart.html" title="Mon panier" class="btn cart">
                           <i class="fa fa-shopping-cart"></i>
                           <span>(0)</span>
                       </a>
@@ -141,9 +140,8 @@
     <div class="breadcrumb-wrap">
       <div class="container-fluid">
         <ul class="breadcrumb">
-          <li class="breadcrumb-item"><a href="#">Home</a></li>
-          <li class="breadcrumb-item"><a href="#">Products</a></li>
-          <li class="breadcrumb-item active">Cart</li>
+          <li class="breadcrumb-item"><a href="../index.html" title="pade d'accueil Dantech">Accueil</a></li>
+          <li class="breadcrumb-item active">Mon panier</li>
         </ul>
       </div>
     </div>
@@ -159,36 +157,34 @@
                 <table class="table table-bordered">
                   <thead class="thead-dark">
                     <tr>
-                      <th>Product</th>
-                      <th>Price</th>
-                      <th>Quantity</th>
+                      <th>Produit</th>
+                      <th>Prix</th>
+                      <th>Quantité</th>
                       <th>Total</th>
-                      <th>Remove</th>
+                      <th>Retirer</th>
                     </tr>
                   </thead>
                   <tbody class="align-middle">
                     <tr>
                       <td>
                         <div class="img">
-                          <a href="#"
-                            ><img src="img/product-1.jpg" alt="Image"
-                          /></a>
-                          <p>Product Name</p>
+                          <a href="#"><img src="../img/product/product-2.jpg" alt="ordinateur laptop VivoBook 15,6 po d'ASUS-Gris ardoise (Core i5-1035G1 Intel/SSD 512 Go/Optane 32 Go/RAM 16 Go/Win 10)" /></a>
+                          <p>VivoBook 15,6 po d'ASUS-Gris ardoise (Core i5-1035G1 Intel/SSD 512 Go/Optane 32 Go/RAM 16 Go/Win 10)</p>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>750,79$</td>
                       <td>
                         <div class="qty">
                           <button class="btn-minus">
                             <i class="fa fa-minus"></i>
                           </button>
-                          <input type="text" value="1" />
+                          <input class="textqty" type="text" value="1" />
                           <button class="btn-plus">
                             <i class="fa fa-plus"></i>
                           </button>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>750,79$</td>
                       <td>
                         <button><i class="fa fa-trash"></i></button>
                       </td>
@@ -196,25 +192,23 @@
                     <tr>
                       <td>
                         <div class="img">
-                          <a href="#"
-                            ><img src="img/product-2.jpg" alt="Image"
-                          /></a>
-                          <p>Product Name</p>
+                          <a href="#"><img src="../img/product/product-1.jpg" alt="Casque d'écoute sans fil SoundLink II avec micro de Bose - Noir"/></a>
+                          <p>Casque d'écoute sans fil SoundLink II avec micro de Bose - Noir</p>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>99,01$</td>
                       <td>
                         <div class="qty">
                           <button class="btn-minus">
                             <i class="fa fa-minus"></i>
                           </button>
-                          <input type="text" value="1" />
+                          <input class="textqty" type="text" value="1" />
                           <button class="btn-plus">
                             <i class="fa fa-plus"></i>
                           </button>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>99,01$</td>
                       <td>
                         <button><i class="fa fa-trash"></i></button>
                       </td>
@@ -222,25 +216,23 @@
                     <tr>
                       <td>
                         <div class="img">
-                          <a href="#"
-                            ><img src="img/product-3.jpg" alt="Image"
-                          /></a>
-                          <p>Product Name</p>
+                          <a href="#"><img src="../img/product/product-11.jpg" alt="axGear Mini clavier sans fil combinée ultra mince 2,4 GHz"/></a>
+                          <p>axGear Mini clavier sans fil combinée ultra mince 2,4 GHz</p>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>25,09$</td>
                       <td>
                         <div class="qty">
                           <button class="btn-minus">
                             <i class="fa fa-minus"></i>
                           </button>
-                          <input type="text" value="1" />
+                          <input class="textqty" type="text" value="1" />
                           <button class="btn-plus">
                             <i class="fa fa-plus"></i>
                           </button>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>25,09$</td>
                       <td>
                         <button><i class="fa fa-trash"></i></button>
                       </td>
@@ -248,25 +240,23 @@
                     <tr>
                       <td>
                         <div class="img">
-                          <a href="#"
-                            ><img src="img/product-4.jpg" alt="Image"
-                          /></a>
-                          <p>Product Name</p>
+                          <a href="#"><img src="../img/product/product-12.jpg" alt="Souris optique sans fil M185 de Logitech - Noir"/></a>
+                          <p>Souris optique sans fil M185 de Logitech - Noir</p>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>15,99$</td>
                       <td>
                         <div class="qty">
                           <button class="btn-minus">
                             <i class="fa fa-minus"></i>
                           </button>
-                          <input type="text" value="1" />
+                          <input class="textqty" type="text" value="1" />
                           <button class="btn-plus">
                             <i class="fa fa-plus"></i>
                           </button>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>15,99$</td>
                       <td>
                         <button><i class="fa fa-trash"></i></button>
                       </td>
@@ -274,25 +264,23 @@
                     <tr>
                       <td>
                         <div class="img">
-                          <a href="#"
-                            ><img src="img/product-5.jpg" alt="Image"
-                          /></a>
-                          <p>Product Name</p>
+                          <a href="#"><img src="../img/product/product-13.jpg" alt="HDMI vers VGA 1080P HDMI mâle vers VGA femelle câble adaptateur de convertisseur vidéo pour PC ordinateur portable projecteurs HDTV et autres HDMI" /></a>
+                          <p>HDMI vers VGA 1080P HDMI mâle vers VGA femelle câble adaptateur de convertisseur vidéo pour PC ordinateur portable projecteurs HDTV et autres HDMI</p>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>9,99$</td>
                       <td>
                         <div class="qty">
                           <button class="btn-minus">
                             <i class="fa fa-minus"></i>
                           </button>
-                          <input type="text" value="1" />
+                          <input class="textqty" type="text" value="1" />
                           <button class="btn-plus">
                             <i class="fa fa-plus"></i>
                           </button>
                         </div>
                       </td>
-                      <td>$99</td>
+                      <td>9,99$</td>
                       <td>
                         <button><i class="fa fa-trash"></i></button>
                       </td>
@@ -307,21 +295,22 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="coupon">
-                    <input type="text" placeholder="Coupon Code" />
-                    <button>Apply Code</button>
+                    <input type="text" placeholder="code promo"/>
+                    <button>Appliquer</button>
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="cart-summary">
                     <div class="cart-content">
-                      <h1>Cart Summary</h1>
-                      <p>Sub Total<span>$99</span></p>
-                      <p>Shipping Cost<span>$1</span></p>
-                      <h2>Grand Total<span>$100</span></h2>
+                      <h1>Résumé de la commande</h1>
+                      <p>Total partiel des produits<span>900,87$</span></p>
+                      <p>Estimation des frais de livraison<span>Gratuit</span></p>                      
+                      <p>Estimation des taxes<span>135,13$</span></p>
+                      <h2>Grand Total<span>1 036,00$</span></h2>
                     </div>
                     <div class="cart-btn">
-                      <button>Update Cart</button>
-                      <button>Checkout</button>
+                      <button>Mise à jour panier</button>                      
+                      <button onClick="parent.location='checkout.html'">Passer à la caisse</button>
                     </div>
                   </div>
                 </div>

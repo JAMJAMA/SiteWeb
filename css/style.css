@@ -1506,6 +1506,12 @@ h2 {
     font-size: 0;
 }
 
+.cart-page .table .textqty {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
+
 .cart-page .table button {
     width: 30px;
     height: 30px;
@@ -1591,7 +1597,12 @@ h2 {
 }
 
 .cart-page .cart-summary .cart-content h1 {
-    font-size: 22px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cart-page .cart-summary .cart-content p {
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
@@ -1622,7 +1633,8 @@ h2 {
 
 .cart-page .cart-summary .cart-btn button:hover {
     color: #FF6F61;
-    background: #000000;
+    background: #ffffff;
+    border: 1px solid #FF6F61;
 }
 
 .cart-page .cart-summary .cart-btn button:first-child {
