@@ -235,5 +235,16 @@
             $('#' + checkbox_id + '-show').slideDown();
         }
     });
+
+    // Open new page in parent location
+    $('.cart-btn .checkout').click(function() {
+        window.location = "checkout.html" + this.id;
+     });
+     
+     // Open new popup page
+     $('.popup').click(function(event) {
+        event.preventDefault();
+        window.open("https://www.paypal.com/fr/signin", "popupWindow", "width=600,height=600,scrollbars=yes");
+    });
 })(jQuery);
 
