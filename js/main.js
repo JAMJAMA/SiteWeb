@@ -246,5 +246,10 @@
         event.preventDefault();
         window.open("https://www.paypal.com/fr/signin", "popupWindow", "width=600,height=600,scrollbars=yes");
     });
+
+    // Open new page in parent location
+    $('#btnlogin').click(function() {
+        window.location = "my-account.html";
+     });
 })(jQuery);
 
