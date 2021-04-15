@@ -1098,6 +1098,7 @@ h2 {
     border: none;
     color: #000000;
     background: #FF6F61;
+    font-size: 13px;
 }
 
 .product-item:hover .product-price .btn,
@@ -1341,7 +1342,7 @@ h2 {
 }
 
 .product-detail .product-slider-single-nav .slider-nav-img {
-    border-right: 1px solid #FF6F61;
+    border-right: 0px solid #FF6F61;
     overflow: hidden;
 }
 
@@ -1520,8 +1521,14 @@ h2 {
     margin-bottom: 15px;
 }
 
+.product-detail .tab-content .rattingYellow {
+    color: #FECF0A;
+    margin-bottom: 15px;
+}
+
 .product-detail .tab-content .reviews-submit .ratting {
     font-size: 24px;
+    color: #FECF0A;
 }
 
 .product-detail .tab-content .form input {
